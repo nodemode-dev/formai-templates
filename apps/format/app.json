@@ -1,0 +1,36 @@
+{
+  "id": "format",
+  "name": "FormAT",
+  "repo": "formAT",
+  "licence": "Apache-2.0",
+  "version": "0.32.0",
+  "items": [
+    {
+      "file": "demos/harbour-ferries.zip",
+      "kind": "demo",
+      "name": "Harbour Ferries",
+      "description": "An operations dashboard for an invented ferry operator, with its data as a form.md import package in Outputs.",
+      "licence": "Apache-2.0",
+      "credit": "Solar system figures and pictures from public-domain NASA sources, listed in CREDITS.md",
+      "source": "backend/app/demos/harbour-ferries"
+    },
+    {
+      "file": "demos/northern-light.zip",
+      "kind": "demo",
+      "name": "Northern Light",
+      "description": "A calm animated page: the northern lights over a mountain lake, reacting to the pointer.",
+      "licence": "Apache-2.0",
+      "credit": "Solar system figures and pictures from public-domain NASA sources, listed in CREDITS.md",
+      "source": "backend/app/demos/northern-light"
+    },
+    {
+      "file": "demos/solar-system.zip",
+      "kind": "demo",
+      "name": "Solar System",
+      "description": "A 3D model of the solar system: fly to any planet, watch its moons orbit and read its figures.",
+      "licence": "Apache-2.0",
+      "credit": "Solar system figures and pictures from public-domain NASA sources, listed in CREDITS.md",
+      "source": "backend/app/demos/solar-system"
+    }
+  ]
+}

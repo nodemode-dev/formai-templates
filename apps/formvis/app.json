@@ -1,0 +1,36 @@
+{
+  "id": "formvis",
+  "name": "FormVis",
+  "repo": "formvis",
+  "licence": "Apache-2.0",
+  "version": "2.8.1",
+  "items": [
+    {
+      "file": "demos/design.zip",
+      "kind": "demo",
+      "name": "Design",
+      "description": "",
+      "licence": "Pexels License",
+      "credit": "Photographs by Pexels photographers, listed in CREDITS.md",
+      "source": "frontend/public/demos/design"
+    },
+    {
+      "file": "demos/paint.zip",
+      "kind": "demo",
+      "name": "Paint",
+      "description": "",
+      "licence": "Pexels License",
+      "credit": "Photographs by Pexels photographers, listed in CREDITS.md",
+      "source": "frontend/public/demos/paint"
+    },
+    {
+      "file": "demos/retouch.zip",
+      "kind": "demo",
+      "name": "Retouch",
+      "description": "",
+      "licence": "Pexels License",
+      "credit": "Photographs by Pexels photographers, listed in CREDITS.md",
+      "source": "frontend/public/demos/retouch"
+    }
+  ]
+}

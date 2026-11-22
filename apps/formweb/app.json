@@ -1,0 +1,537 @@
+{
+  "id": "formweb",
+  "name": "FormWeb",
+  "repo": "formweb",
+  "licence": "Apache-2.0",
+  "version": "0.27.0",
+  "items": [
+    {
+      "file": "demos/harbour-ferries.fweb",
+      "kind": "demo",
+      "name": "Harbour Ferries",
+      "description": "",
+      "licence": "Apache-2.0; NASA media guidelines; CC BY 4.0 (ESA/Hubble)",
+      "credit": "NASA pictures and the Hubble Ultra Deep Field (NASA, ESA, S. Beckwith (STScI) and the HUDF Team), listed in CREDITS.md",
+      "source": "frontend/public/demos/harbour-ferries/site.fweb",
+      "preview": "previews/harbour-ferries.webp"
+    },
+    {
+      "file": "demos/looking-back.fweb",
+      "kind": "demo",
+      "name": "Looking Back",
+      "description": "",
+      "licence": "Apache-2.0; NASA media guidelines; CC BY 4.0 (ESA/Hubble)",
+      "credit": "NASA pictures and the Hubble Ultra Deep Field (NASA, ESA, S. Beckwith (STScI) and the HUDF Team), listed in CREDITS.md",
+      "source": "frontend/public/demos/looking-back/site.fweb",
+      "preview": "previews/looking-back.webp"
+    },
+    {
+      "file": "demos/lowlight.fweb",
+      "kind": "demo",
+      "name": "Lowlight",
+      "description": "",
+      "licence": "Apache-2.0; NASA media guidelines; CC BY 4.0 (ESA/Hubble)",
+      "credit": "NASA pictures and the Hubble Ultra Deep Field (NASA, ESA, S. Beckwith (STScI) and the HUDF Team), listed in CREDITS.md",
+      "source": "frontend/public/demos/lowlight/site.fweb",
+      "preview": "previews/lowlight.webp"
+    },
+    {
+      "file": "templates/develop-frame.zip",
+      "kind": "template",
+      "name": "Develop frame",
+      "description": "A prompt box that dims the page while a picture develops from its darkest areas, then keeps each result in a strip of recent frames you can bring back.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/develop-frame",
+      "preview": "previews/develop-frame.webp"
+    },
+    {
+      "file": "templates/filmstrip.zip",
+      "kind": "template",
+      "name": "Filmstrip scrub",
+      "description": "A row of plates that scrubs with the page scroll, magnifying the plate in focus, skewing with scroll speed and ending on a full-bleed video.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/filmstrip",
+      "preview": "previews/filmstrip.webp"
+    },
+    {
+      "file": "templates/fog-wipe-monitor.zip",
+      "kind": "template",
+      "name": "Fog wipe monitor",
+      "description": "A pinned video monitor that opens on a fogged proxy of a clip, lets you wipe it clear with the pointer so drops run down the glass, then sweeps a squeegee across the frame as you scroll and pushes through to an export panel.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/fog-wipe-monitor",
+      "preview": "previews/fog-wipe-monitor.webp"
+    },
+    {
+      "file": "templates/fold-plan.zip",
+      "kind": "template",
+      "name": "Fold plan",
+      "description": "A drawing sheet that folds from a flat plan into a tilted model, with a sun slider that recasts every shadow and parts you open as a card.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/fold-plan",
+      "preview": "previews/fold-plan.webp"
+    },
+    {
+      "file": "templates/forecast-chart.zip",
+      "kind": "template",
+      "name": "Forecast chart prompt",
+      "description": "A prompt panel that turns a typed question or a dropped CSV into an animated forecast chart with a confidence band, count-up figures and a keyboard read-out.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/forecast-chart",
+      "preview": "previews/forecast-chart.webp"
+    },
+    {
+      "file": "templates/formai-footer.json",
+      "kind": "template",
+      "name": "formai.studio footer",
+      "description": "The formai.studio footer: about block with the wordmark, every app family group with per-app tints, resources and the copyright line.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formai-footer.json",
+      "preview": "previews/formai-footer.webp"
+    },
+    {
+      "file": "templates/formai-header.json",
+      "kind": "template",
+      "name": "formai.studio header",
+      "description": "The formai.studio top bar: brand mark and wordmark, site search, reviews link, navigation links and the light and dark toggle.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formai-header.json",
+      "preview": "previews/formai-header.webp"
+    },
+    {
+      "file": "templates/formai-studio.json",
+      "kind": "template",
+      "name": "formai.studio",
+      "description": "The formai.studio design system: graphite surfaces, Inter at variable weights, one product tint per section, dark and light themes.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/presets/formai-studio.json"
+    },
+    {
+      "file": "templates/format-casting.json",
+      "kind": "template",
+      "name": "FormAT casting",
+      "description": "A scripted simulation of the FormAT window: pick an agent role, send a sample prompt and watch the reply stream and the artifact panel or terminal dock open.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/format-casting.json",
+      "preview": "previews/format-casting.webp"
+    },
+    {
+      "file": "templates/format-prompt.json",
+      "kind": "template",
+      "name": "FormAT prompt",
+      "description": "Ask FormAT a question, pick how hard it thinks, and watch the trace type out before the answer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/format-prompt.json",
+      "preview": "previews/format-prompt.webp"
+    },
+    {
+      "file": "templates/formcel-feature-rows.json",
+      "kind": "template",
+      "name": "FormCel feature rows",
+      "description": "Two FormCel feature rows: opening the workbooks you already have, and starting from templates with charts.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formcel-feature-rows.json",
+      "preview": "previews/formcel-feature-rows.webp"
+    },
+    {
+      "file": "templates/formcel-foresheet.json",
+      "kind": "template",
+      "name": "FormCel foresheet",
+      "description": "Ask a FormCel sheet a question and get a forecast chart with a confidence band, from a typed prompt or a dropped table.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formcel-foresheet.json",
+      "preview": "previews/formcel-foresheet.webp"
+    },
+    {
+      "file": "templates/formcut-feature-rows.json",
+      "kind": "template",
+      "name": "FormCut feature rows",
+      "description": "Three FormCut feature rows: one renderer for preview and export, a real effect catalogue, and export with hardware encoders.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formcut-feature-rows.json",
+      "preview": "previews/formcut-feature-rows.webp"
+    },
+    {
+      "file": "templates/formcut-proxy-monitor.json",
+      "kind": "template",
+      "name": "FormCut proxy monitor",
+      "description": "A FormCut monitor that opens on a fogged proxy of a clip, lets you wipe it clear, then sweeps the grade across the frame and pushes through to the export panel.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formcut-proxy-monitor.json",
+      "preview": "previews/formcut-proxy-monitor.webp"
+    },
+    {
+      "file": "templates/formdam-capture-wall.json",
+      "kind": "template",
+      "name": "FormDAM capture wall",
+      "description": "A pinned wall of FormDAM captures that pulls back from one screen to the whole library.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formdam-capture-wall.json",
+      "preview": "previews/formdam-capture-wall.webp"
+    },
+    {
+      "file": "templates/formdeck-deckhand.json",
+      "kind": "template",
+      "name": "FormDeck deckhand",
+      "description": "Twelve slides from FormDeck's demos to throw, flip, sort into a grid and present, as you scroll.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formdeck-deckhand.json",
+      "preview": "previews/formdeck-deckhand.webp"
+    },
+    {
+      "file": "templates/formdesign-spreads.json",
+      "kind": "template",
+      "name": "FormDesign spreads",
+      "description": "A FormDesign publication turned page by page: cover, letter, contents, the Make chapter, captures, facts and a back cover.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formdesign-spreads.json",
+      "preview": "previews/formdesign-spreads.webp"
+    },
+    {
+      "file": "templates/formencoder-how-it-works.json",
+      "kind": "template",
+      "name": "FormEncoder in three steps",
+      "description": "Queue the media, pick a preset, press Start: how FormEncoder turns one source into several outputs.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formencoder-how-it-works.json",
+      "preview": "previews/formencoder-how-it-works.webp"
+    },
+    {
+      "file": "templates/formfabric-stories.json",
+      "kind": "template",
+      "name": "FormFabric stories",
+      "description": "Six stories from FormFabric, the garment design app, each on a tall card cut from the real window.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formfabric-stories.json",
+      "preview": "previews/formfabric-stories.webp"
+    },
+    {
+      "file": "templates/formmcp-faq.json",
+      "kind": "template",
+      "name": "FormMCP questions",
+      "description": "Four questions about FormMCP, answered from what it does: one short list for agents, tools on demand, three clients, one command to connect.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formmcp-faq.json",
+      "preview": "previews/formmcp-faq.webp"
+    },
+    {
+      "file": "templates/formmcp-prompt.json",
+      "kind": "template",
+      "name": "FormMCP prompt",
+      "description": "Type a task for an agent and watch it go through FormMCP: one family list, one app started, one result returned unchanged.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formmcp-prompt.json",
+      "preview": "previews/formmcp-prompt.webp"
+    },
+    {
+      "file": "templates/formmd-prompt.json",
+      "kind": "template",
+      "name": "Form.md prompt",
+      "description": "Ask a Form.md workspace a question and watch it read pages before it writes a summary note.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formmd-prompt.json",
+      "preview": "previews/formmd-prompt.webp"
+    },
+    {
+      "file": "templates/formpath-knockout.json",
+      "kind": "template",
+      "name": "FormPath knockout",
+      "description": "Drag vector shapes onto an artboard, hold to subtract them from the fill, and scroll to rinse the sheet down to single-colour artwork with clean holes.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formpath-knockout.json",
+      "preview": "previews/formpath-knockout.webp"
+    },
+    {
+      "file": "templates/formref-pinboard.json",
+      "kind": "template",
+      "name": "FormRef board",
+      "description": "A FormRef board of sixteen real captures on an infinite canvas: drag pieces, zoom around the pointer, fit them all, tidy them into columns and open any one full size.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formref-pinboard.json",
+      "preview": "previews/formref-pinboard.webp"
+    },
+    {
+      "file": "templates/formskills-integrations.json",
+      "kind": "template",
+      "name": "FormSkills integrations",
+      "description": "FormSkills installs released skills into Claude Code, Codex and Cursor, for you or for one project, from the Form family's apps.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formskills-integrations.json",
+      "preview": "previews/formskills-integrations.webp"
+    },
+    {
+      "file": "templates/formsurface-prompt.json",
+      "kind": "template",
+      "name": "FormSurface prompt",
+      "description": "Ask a small scripted desk to tidy up, show FormSurface captures, empty the bin or spin a turntable, and watch the pointer do it.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formsurface-prompt.json",
+      "preview": "previews/formsurface-prompt.webp"
+    },
+    {
+      "file": "templates/formsurface-swatch.json",
+      "kind": "template",
+      "name": "FormSurface swatch",
+      "description": "Spray pigment onto a surface the way FormSurface paints a model, then shrink it into a material card and save it as a PNG.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formsurface-swatch.json",
+      "preview": "previews/formsurface-swatch.webp"
+    },
+    {
+      "file": "templates/formtray-footer.json",
+      "kind": "template",
+      "name": "FormTray footer",
+      "description": "A footer in FormTray's voice: find any FormAI app by name, and the whole family listed in the groups the launcher uses.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formtray-footer.json",
+      "preview": "previews/formtray-footer.webp"
+    },
+    {
+      "file": "templates/formtray-panes.json",
+      "kind": "template",
+      "name": "FormTray index",
+      "description": "An index of twelve captures of FormTray's own windows: filter them, hover a line to preview the capture, open one to read about it.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formtray-panes.json",
+      "preview": "previews/formtray-panes.webp"
+    },
+    {
+      "file": "templates/formtxt-404.json",
+      "kind": "template",
+      "name": "FormTxt page not found",
+      "description": "A page-not-found screen that searches the site and prints the closest pages on a receipt you can pull down to tear.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formtxt-404.json",
+      "preview": "previews/formtxt-404.webp"
+    },
+    {
+      "file": "templates/formvfx-orbit.json",
+      "kind": "template",
+      "name": "FormVFX orbit",
+      "description": "Twenty-eight crops of real captures fly from a spinning ring into a constellation web as you scroll; drag, hover, filter and open any frame.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formvfx-orbit.json",
+      "preview": "previews/formvfx-orbit.webp"
+    },
+    {
+      "file": "templates/formvfx-vortex.json",
+      "kind": "template",
+      "name": "FormVFX vortex",
+      "description": "Fourteen FormVFX shots line the inside of a long tube: scroll to travel it, click one to fly it out beside its details.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formvfx-vortex.json",
+      "preview": "previews/formvfx-vortex.webp"
+    },
+    {
+      "file": "templates/formvis-tiles.json",
+      "kind": "template",
+      "name": "FormVis tiles",
+      "description": "A still being relit in FormVis, cut into layers that you can scatter, re-cut and scroll back into a single image.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/sections/formvis-tiles.json",
+      "preview": "previews/formvis-tiles.webp"
+    },
+    {
+      "file": "templates/glyph-lens.zip",
+      "kind": "template",
+      "name": "Glyph lens",
+      "description": "A capture read back as text on a WebGL canvas: scroll tunes the glyph grid in, the pointer opens a lens onto the picture, and the end of the scroll opens the whole shaded view.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/glyph-lens",
+      "preview": "previews/glyph-lens.webp"
+    },
+    {
+      "file": "templates/infinite-board.zip",
+      "kind": "template",
+      "name": "Infinite board",
+      "description": "A board of captures on an infinite canvas: drag pieces, pan, zoom around the pointer or pinch, fit them all, tidy them into columns and open any one full size.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/infinite-board",
+      "preview": "previews/infinite-board.webp"
+    },
+    {
+      "file": "templates/knockout-artboard.zip",
+      "kind": "template",
+      "name": "Knockout artboard",
+      "description": "Drag vector shapes onto an artboard, hold to subtract them from the fill, then scroll to rinse the sheet down to single-colour artwork with clean holes.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/knockout-artboard",
+      "preview": "previews/knockout-artboard.webp"
+    },
+    {
+      "file": "templates/noise-band.zip",
+      "kind": "template",
+      "name": "Noise band backdrop",
+      "description": "A tinted fbm noise band that rises up the backdrop, leans toward the pointer, swells while you type and surges while a prompt runs.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/noise-band",
+      "preview": "previews/noise-band.webp"
+    },
+    {
+      "file": "templates/orbit-constellation.zip",
+      "kind": "template",
+      "name": "Orbit constellation",
+      "description": "Twenty-eight cropped captures spin on a ring, then fly into a constellation web as you scroll; drag to spin, hover to follow a thread, filter by panel and open any frame.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/orbit-constellation",
+      "preview": "previews/orbit-constellation.webp"
+    },
+    {
+      "file": "templates/page-turn.zip",
+      "kind": "template",
+      "name": "Page turn",
+      "description": "A publication turned page by page in 3D, with drag, arrow keys, arrow buttons and a swipe deck on narrow screens.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/page-turn",
+      "preview": "previews/page-turn.webp"
+    },
+    {
+      "file": "templates/paint-sim.zip",
+      "kind": "template",
+      "name": "Pigment spray swatch",
+      "description": "A pinned stage where you spray pigment onto a surface, scroll to shrink it into a material card, and save it as a PNG.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/paint-sim",
+      "preview": "previews/paint-sim.webp"
+    },
+    {
+      "file": "templates/physics-deck.zip",
+      "kind": "template",
+      "name": "Physics deck",
+      "description": "Twelve slides land on a desk to throw, flip and shuffle, then sort into a grid and zoom into one slide as the page scrolls.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/physics-deck",
+      "preview": "previews/physics-deck.webp"
+    },
+    {
+      "file": "templates/product-site.json",
+      "kind": "template",
+      "name": "Product site",
+      "description": "A six page product site in the formai.studio style: home, product, about, stories, support and a not found page, with a shared header and footer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/starters/product-site.json"
+    },
+    {
+      "file": "templates/receipt-printer.zip",
+      "kind": "template",
+      "name": "Receipt printer",
+      "description": "A small receipt printer that prints the closest pages for a search, row by row, and lets the visitor pull the receipt down to tear it off.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/receipt-printer",
+      "preview": "previews/receipt-printer.webp"
+    },
+    {
+      "file": "templates/ruler-slider.zip",
+      "kind": "template",
+      "name": "Ruler slider with odometer",
+      "description": "A ruler with a needle you slide through a numbered list of steps, writing the step to a variable, and an odometer that rolls the digits of the readouts that follow.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/ruler-slider",
+      "preview": "previews/ruler-slider.webp"
+    },
+    {
+      "file": "templates/scripted-desktop.zip",
+      "kind": "template",
+      "name": "Scripted desktop",
+      "description": "A small desk with icons, draggable windows, a taskbar and an assistant whose fake pointer tidies the icons, opens captures, empties the bin and spins a turntable on request.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/scripted-desktop",
+      "preview": "previews/scripted-desktop.webp"
+    },
+    {
+      "file": "templates/specks.zip",
+      "kind": "template",
+      "name": "Specks backdrop",
+      "description": "Soft glowing specks that rise slowly through a hero backdrop, each at its own depth, drawn on a small canvas.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/specks",
+      "preview": "previews/specks.webp"
+    },
+    {
+      "file": "templates/starfield.zip",
+      "kind": "template",
+      "name": "Starfield backdrop",
+      "description": "A canvas backdrop of pulsing squares laid out on a grid, thickest toward both side edges and fading downward, with four faint rings behind them and a glow that swells around the pointer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/starfield",
+      "preview": "previews/starfield.webp"
+    },
+    {
+      "file": "templates/tile-cut.zip",
+      "kind": "template",
+      "name": "Tile cut",
+      "description": "A picture cut into recursive tiles that slide under the pointer, re-cut on click and merge back into one image as the page scrolls.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/tile-cut",
+      "preview": "previews/tile-cut.webp"
+    },
+    {
+      "file": "templates/token-prompt.zip",
+      "kind": "template",
+      "name": "Token prompt",
+      "description": "A prompt field that highlights slash commands and at mentions as you type and offers an autocomplete menu for both.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/token-prompt",
+      "preview": "previews/token-prompt.webp"
+    },
+    {
+      "file": "templates/tube-travel.zip",
+      "kind": "template",
+      "name": "Tube travel",
+      "description": "Shots line the inside of a long 3D tube; scrolling travels along it and a click flies one shot out beside its details.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "library/components/tube-travel",
+      "preview": "previews/tube-travel.webp"
+    }
+  ]
+}

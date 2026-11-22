@@ -1,0 +1,648 @@
+{
+  "id": "formdesign",
+  "name": "FormDesign",
+  "repo": "formdesign",
+  "licence": "Apache-2.0",
+  "version": "0.93.1",
+  "items": [
+    {
+      "file": "templates/ad-banner-leaderboard.json",
+      "kind": "template",
+      "name": "Leaderboard Banner",
+      "description": "A 728 by 90 px leaderboard display banner: the logo, a short headline over one line of detail, and a button, on a dark field with an accent edge.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-banner-leaderboard.json"
+    },
+    {
+      "file": "templates/ad-banner-medium-rectangle.json",
+      "kind": "template",
+      "name": "Medium Rectangle Banner",
+      "description": "A 300 by 250 px medium rectangle display banner: a photograph with the logo over it, then a two-line headline, one line of detail and a button on a light panel.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-banner-medium-rectangle.json"
+    },
+    {
+      "file": "templates/ad-banner-mobile.json",
+      "kind": "template",
+      "name": "Mobile Banner",
+      "description": "A 320 by 100 px large mobile banner: the logo, a two-line headline with one short line under it, and a compact button, on a bright colour field.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-banner-mobile.json"
+    },
+    {
+      "file": "templates/ad-banner-skyscraper.json",
+      "kind": "template",
+      "name": "Wide Skyscraper Banner",
+      "description": "A 160 by 600 px wide skyscraper display banner: logo and kicker, a stacked condensed headline, a photograph, one line of detail and a button on a dark field.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-banner-skyscraper.json"
+    },
+    {
+      "file": "templates/ad-event-announcement.json",
+      "kind": "template",
+      "name": "Event Announcement",
+      "description": "A 1080 by 1350 px event ad in a vintage poster style: a presenter line, a large serif title, a one-line description, a round photograph with an offset disc, and a dark band with the date, time, venue and ticket line.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-event-announcement.json"
+    },
+    {
+      "file": "templates/ad-link-landscape.json",
+      "kind": "template",
+      "name": "Link Ad, Landscape",
+      "description": "A 1200 by 627 px landscape link ad for feeds and link previews: logo and brand, a kicker, a two or three line headline, one line of detail and a button on a dark panel that fades into a photograph.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-link-landscape.json"
+    },
+    {
+      "file": "templates/ad-print-magazine-page.json",
+      "kind": "template",
+      "name": "Magazine Ad, Full Page",
+      "description": "A full-page Letter magazine ad with bleed: a photograph across the top two thirds, a serif headline beside a short paragraph and call to action, then logo, brand, web address and small print along the foot.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-print-magazine-page.json"
+    },
+    {
+      "file": "templates/ad-sale-promo.json",
+      "kind": "template",
+      "name": "Sale Promo, Big Number",
+      "description": "A 1080 px square sale ad built around one huge percentage: a kicker, the sale name, the discount and what it applies to, a line of detail, a shop button and the small print.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-sale-promo.json"
+    },
+    {
+      "file": "templates/ad-social-portrait-product.json",
+      "kind": "template",
+      "name": "Social Portrait, Product",
+      "description": "A 1080 by 1350 px portrait product ad: a large rounded product shot with a badge and logo, the product name, one line of detail, a big price, a shop button and a brand footer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-social-portrait-product.json"
+    },
+    {
+      "file": "templates/ad-social-square-bold.json",
+      "kind": "template",
+      "name": "Social Square, Bold",
+      "description": "A 1080 px square social ad: a full-bleed photograph under a dark fade, a heavy headline, one supporting line, a pill call to action and the logo.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-social-square-bold.json"
+    },
+    {
+      "file": "templates/ad-social-square-minimal.json",
+      "kind": "template",
+      "name": "Social Square, Minimal",
+      "description": "A 1080 px square social ad led by type alone: a solid colour field, a very large headline on the grid, one supporting line, an outlined call to action and the logo.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-social-square-minimal.json"
+    },
+    {
+      "file": "templates/ad-story-stacked.json",
+      "kind": "template",
+      "name": "Story, Three Zones",
+      "description": "A 1080 by 1920 px story ad in three stacked zones: brand and headline on a colour band, a full-width photograph with a round sticker, and a dark band with the offer, a button and the web address, all inside the story safe area.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/ad/ad-story-stacked.json"
+    },
+    {
+      "file": "templates/book-cookbook-spread.json",
+      "kind": "template",
+      "name": "Cookbook Recipe Spread",
+      "description": "An 8 by 10 inch cookbook spread: a full-bleed food photograph facing the recipe, with title, headnote, serves and timing, a ruled ingredients list, a cook's note and numbered method steps.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/book/book-cookbook-spread.json"
+    },
+    {
+      "file": "templates/book-nonfiction-chapter.json",
+      "kind": "template",
+      "name": "Nonfiction Chapter",
+      "description": "A 7 by 10 inch nonfiction chapter: a tinted opener with chapter contents, then a main text column beside a margin column for notes, figures, pull quotes and a boxed sidebar.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/book/book-nonfiction-chapter.json"
+    },
+    {
+      "file": "templates/book-novel-interior.json",
+      "kind": "template",
+      "name": "Novel Interior",
+      "description": "A 6 by 9 inch trade fiction interior: a sunk chapter opener with ornament and epigraph, then facing body pages with running heads and centred folios.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/book/book-novel-interior.json"
+    },
+    {
+      "file": "templates/book-photo-monograph.json",
+      "kind": "template",
+      "name": "Photo Monograph",
+      "description": "A 10 by 8 inch landscape photo monograph: a typographic opener facing a full-bleed plate, then a three-image grid spread and a single framed plate, with numbered captions.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/book/book-photo-monograph.json"
+    },
+    {
+      "file": "templates/book-picture-book.json",
+      "kind": "template",
+      "name": "Picture Book",
+      "description": "An 8.5 inch square children's picture book: a bright title page with a round spot illustration, a full-spread painting with short story text in soft panels, and a text-led page with spot art.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/book/book-picture-book.json"
+    },
+    {
+      "file": "templates/book-poetry-chapbook.json",
+      "kind": "template",
+      "name": "Poetry Chapbook",
+      "description": "A 5.5 by 8.5 inch poetry chapbook with generous margins: a centred title page, a contents page with right-aligned page numbers, and a verse page with hanging turnovers.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/book/book-poetry-chapbook.json"
+    },
+    {
+      "file": "templates/magazine-back-page-column.json",
+      "kind": "template",
+      "name": "Back Page Column",
+      "description": "A back-page column in a double keyline frame: centred column name, title and deck, a round portrait with name and role, a single-column essay and a sign-off line.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-back-page-column.json"
+    },
+    {
+      "file": "templates/magazine-contents-grid.json",
+      "kind": "template",
+      "name": "Contents, Picture Grid",
+      "description": "A contents page: the cover story with a large picture and page number, three features with thumbnails, and six numbered departments on a three-column grid.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-contents-grid.json"
+    },
+    {
+      "file": "templates/magazine-cover-bold.json",
+      "kind": "template",
+      "name": "Cover, Bold Masthead",
+      "description": "A newsstand cover: a full-bleed photograph under dark fades, a heavy masthead, three cover lines, the lead story and an issue, price and barcode corner.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-cover-bold.json"
+    },
+    {
+      "file": "templates/magazine-department-news.json",
+      "kind": "template",
+      "name": "Department, News Grid",
+      "description": "A front-of-book department page: a condensed section name, a lead brief with picture, a numbers box, four short items, a quote panel and column rules.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-department-news.json"
+    },
+    {
+      "file": "templates/magazine-feature-spread.json",
+      "kind": "template",
+      "name": "Feature Spread",
+      "description": "A two-page feature opener: a full-bleed photograph on the left, kicker, headline, deck and byline over two justified columns on the right, continuing on three-column pages with folios.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-feature-spread.json"
+    },
+    {
+      "file": "templates/magazine-interview-spread.json",
+      "kind": "template",
+      "name": "Interview Spread, Q and A",
+      "description": "A two-page interview: a bleed portrait with the subject's name and deck on the left, a lead-in, six questions and answers and a pull quote in two columns on the right.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-interview-spread.json"
+    },
+    {
+      "file": "templates/magazine-longread-swiss.json",
+      "kind": "template",
+      "name": "Long Read Opener, Swiss",
+      "description": "A type-led opening spread on a six-column Swiss grid: a huge headline over a red square and standfirst on the left, a lead paragraph, pull quote and three-column story on the right, continuing on three-column pages.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-longread-swiss.json"
+    },
+    {
+      "file": "templates/magazine-photo-essay.json",
+      "kind": "template",
+      "name": "Photo Essay, Four Pages",
+      "description": "A four-page photo essay in two spreads: an opening plate with title and deck, a full-bleed plate, a panorama across the gutter with a pull quote, and a pair of plates with numbered captions.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-photo-essay.json"
+    },
+    {
+      "file": "templates/magazine-reviews-culture.json",
+      "kind": "template",
+      "name": "Culture Reviews Page",
+      "description": "A culture page of five reviews: a lead book review with cover art and verdict, four short reviews of an album, film, exhibition and play, each with details line and a round score badge.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/magazine/magazine-reviews-culture.json"
+    },
+    {
+      "file": "templates/newsletter-community-bulletin.json",
+      "kind": "template",
+      "name": "Community Bulletin, Tabloid",
+      "description": "A one-page tabloid bulletin for a neighbourhood: a big serif masthead, lead story with photo and three-column text, a what's-on calendar, neighbour of the month, notices and a contact panel.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/newsletter/newsletter-community-bulletin.json"
+    },
+    {
+      "file": "templates/newsletter-company-quarterly.json",
+      "kind": "template",
+      "name": "Company Newsletter, Two Pages",
+      "description": "A two-page internal newsletter: a navy masthead, lead story with photo and two-column text, an index, quarter-in-numbers panel and CEO quote on page one; a people feature, two briefs, a diary, new starters and a call for stories on page two.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/newsletter/newsletter-company-quarterly.json"
+    },
+    {
+      "file": "templates/newsletter-nonprofit-four-page.json",
+      "kind": "template",
+      "name": "Nonprofit Newsletter, Four Pages",
+      "description": "A four-page A4 newsletter for a charity or club: a green masthead and lead story, a director's letter with impact numbers and a supporter quote, a volunteer spotlight with briefs, and a back page of events, a call to give and a mailing panel.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/newsletter/newsletter-nonprofit-four-page.json"
+    },
+    {
+      "file": "templates/newsletter-school-term.json",
+      "kind": "template",
+      "name": "School Newsletter, Term Dates",
+      "description": "A two-page school or parish newsletter: a centred crest masthead, the head's letter with portrait, notices and class news on page one; a dated diary for the term, house points, stars of the week, a PTA band and reminders on page two.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/newsletter/newsletter-school-term.json"
+    },
+    {
+      "file": "templates/newsletter-studio-update.json",
+      "kind": "template",
+      "name": "Studio Update, Minimal",
+      "description": "A minimal one-page studio update: a big friendly headline beside three dots of colour, a short lead, three project cards with rounded pictures, and a footer of works in progress, favourites and contact details.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/newsletter/newsletter-studio-update.json"
+    },
+    {
+      "file": "templates/presentation-keynote-dark.json",
+      "kind": "template",
+      "name": "Conference Talk, Dark",
+      "description": "A six-slide 1920 by 1080 conference keynote on a near-black ground: a title slide with a soft glow, a numbered section opener, a large quote, an image beside a numbered list, three big results and a closing slide with contact details.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/presentation/presentation-keynote-dark.json"
+    },
+    {
+      "file": "templates/presentation-lookbook.json",
+      "kind": "template",
+      "name": "Lookbook",
+      "description": "A six-slide 1920 by 1080 image-led lookbook: a full-bleed cover with serif title, an introduction beside a full-height photograph, three products with names and details, a signature piece with price and specification, an editorial image pair with a quote, and a dark showroom slide.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/presentation/presentation-lookbook.json"
+    },
+    {
+      "file": "templates/presentation-pitch-deck.json",
+      "kind": "template",
+      "name": "Pitch Deck",
+      "description": "A six-slide 1920 by 1080 investor pitch: a dark title slide with photograph, the problem with two big numbers, the solution in three steps, traction with a bar chart and key figures, the team with portraits, and a dark closing ask with contact details.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/presentation/presentation-pitch-deck.json"
+    },
+    {
+      "file": "templates/presentation-quarterly-review.json",
+      "kind": "template",
+      "name": "Quarterly Review",
+      "description": "A six-slide 1920 by 1080 quarterly business review: a navy title slide, four headline numbers with highlights, a monthly revenue bar chart with commentary, a segment breakdown in horizontal bars, risks and priorities side by side, and a discussion slide.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/presentation/presentation-quarterly-review.json"
+    },
+    {
+      "file": "templates/presentation-workshop-steps.json",
+      "kind": "template",
+      "name": "Workshop Slides",
+      "description": "A six-slide 1920 by 1080 workshop deck: a bright title slide with shapes, a timed agenda with a materials list, four numbered technique steps, an exercise with numbered instructions and a timer, a key idea on a dark panel, and a recap with three takeaways and links.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/presentation/presentation-workshop-steps.json"
+    },
+    {
+      "file": "templates/print-brochure-bifold.json",
+      "kind": "template",
+      "name": "Bi-Fold Brochure",
+      "description": "A four-page A4 folded brochure: a photographic cover, a welcome page with lead text, pull quote and a bleeding image, a features page with three picture rows and a stat band, and a back page with booking details and contact.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-brochure-bifold.json"
+    },
+    {
+      "file": "templates/print-brochure-trifold.json",
+      "kind": "template",
+      "name": "Tri-Fold Brochure",
+      "description": "A US Letter landscape tri-fold in two sides: a photographic cover, a contact back panel and a first-visit flap outside; about, services and booking panels with stats, images and a call to action inside.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-brochure-trifold.json"
+    },
+    {
+      "file": "templates/print-catalog-product-page.json",
+      "kind": "template",
+      "name": "Product Catalogue Page",
+      "description": "A US Letter catalogue page: a dark brand bar, collection title and intro, then six products in a three by two grid, each with a photograph, price tag, name and short description, over a footer for delivery and contact.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-catalog-product-page.json"
+    },
+    {
+      "file": "templates/print-flyer-local-business.json",
+      "kind": "template",
+      "name": "Local Business Flyer",
+      "description": "A US Letter flyer for a local service business: logo and brand, a full-width photograph with an offer badge, headline and pitch, three services with short descriptions and a dark contact band with phone, address and web.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-flyer-local-business.json"
+    },
+    {
+      "file": "templates/print-menu-cafe-board.json",
+      "kind": "template",
+      "name": "Cafe Menu Board",
+      "description": "An A3 landscape menu board for a cafe: logo, name and hours over a dark ground, three columns of drinks and bakes with prices and one-line descriptions, a tall photograph and a footer line for milks and specials.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-menu-cafe-board.json"
+    },
+    {
+      "file": "templates/print-menu-restaurant.json",
+      "kind": "template",
+      "name": "Restaurant Menu",
+      "description": "An A4 dinner menu: logo, name and season centred under a fine gold border, three courses of four dishes in two columns with names, descriptions and prices, a tasting-menu note and allergy small print.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-menu-restaurant.json"
+    },
+    {
+      "file": "templates/print-postcard.json",
+      "kind": "template",
+      "name": "Postcard",
+      "description": "A 6 by 4 inch two-sided postcard in a vintage style: a bordered photograph with a 'greetings from' headline and badge on the front; caption, message, stamp box and ruled address lines on the back.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-postcard.json"
+    },
+    {
+      "file": "templates/print-poster-event-type.json",
+      "kind": "template",
+      "name": "Event Poster, Type-Led",
+      "description": "An 18 by 24 inch event poster led by type: a three-line condensed headline over a red disc, the date in large figures, times, venue, a short pitch, a programme list and a footer band for the call to action.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-poster-event-type.json"
+    },
+    {
+      "file": "templates/print-poster-exhibition-swiss.json",
+      "kind": "template",
+      "name": "Exhibition Poster, Swiss",
+      "description": "An A2 exhibition poster in the Swiss manner: a four-column information row, a red square and black circle overprinting on the grid, a heavy rule and a three-line grotesque title set flush left.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-poster-exhibition-swiss.json"
+    },
+    {
+      "file": "templates/print-poster-gig.json",
+      "kind": "template",
+      "name": "Gig Poster",
+      "description": "An 11 by 17 inch concert poster: a full-bleed photograph fading into a dark ground, a heavy two-line act name, support acts, date, doors and venue in three columns and an accent ticket band.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/print/print-poster-gig.json"
+    },
+    {
+      "file": "templates/report-annual-review.json",
+      "kind": "template",
+      "name": "Annual Report Cover and Opener",
+      "description": "An A4 annual report cover with a photograph over a deep navy field and geometric accents, followed by a year-at-a-glance opener with four headline stats and a letter from the chair.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/report/report-annual-review.json"
+    },
+    {
+      "file": "templates/report-business-proposal.json",
+      "kind": "template",
+      "name": "Business Proposal",
+      "description": "A three-page Letter proposal: a split navy cover with prepared-for and prepared-by blocks, an executive summary with objectives, key numbers and reasons to choose you, then scope on a timeline, a ruled pricing table with total, and a sign-off block.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/report/report-business-proposal.json"
+    },
+    {
+      "file": "templates/report-case-study.json",
+      "kind": "template",
+      "name": "Case Study",
+      "description": "A two-page A4 client case study: a deep green header with headline and photograph, an at-a-glance panel and the challenge, then the approach, three result stat cards, a testimonial and a contact line.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/report/report-case-study.json"
+    },
+    {
+      "file": "templates/report-infographic-tall.json",
+      "kind": "template",
+      "name": "Tall Infographic",
+      "description": "A tall 1080 by 2700 px infographic: a dark header with headline and a circular stat callout, then three numbered sections with a stacked breakdown bar, three circle stats and a grid of four tips, closing with sources.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/report/report-infographic-tall.json"
+    },
+    {
+      "file": "templates/report-one-pager-summary.json",
+      "kind": "template",
+      "name": "Executive One-Pager",
+      "description": "A Letter-size executive summary on one page: masthead, headline and deck, a band of three headline stats, an overview with key findings beside a photograph and a dark recommendation panel, and a contact footer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/report/report-one-pager-summary.json"
+    },
+    {
+      "file": "templates/report-research-brief.json",
+      "kind": "template",
+      "name": "Research Brief",
+      "description": "An A4 research or policy brief: an institute masthead with issue line, title, deck and authors, a shaded abstract box over two justified columns, then a full-width figure with caption and a numbered recommendations panel.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/report/report-research-brief.json"
+    },
+    {
+      "file": "templates/report-white-paper.json",
+      "kind": "template",
+      "name": "White Paper",
+      "description": "A Letter-size technical white paper: a dark title page with a network motif, then body pages with running header and footer, an executive summary panel, numbered section heads and two-column text.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/report/report-white-paper.json"
+    },
+    {
+      "file": "templates/stationery-business-card.json",
+      "kind": "template",
+      "name": "Business Card",
+      "description": "A 3.5 by 2 inch two-sided card: logo on an accent front, name, role and contact details on the back, with bleed.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/stationery/stationery-business-card.json"
+    },
+    {
+      "file": "templates/stationery-certificate.json",
+      "kind": "template",
+      "name": "Certificate",
+      "description": "A US Letter landscape certificate: a triple-ruled border with corner brackets and diamonds, the institution and title, the recipient's name in large italic over a rule, a citation, two signature lines and a central seal.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/stationery/stationery-certificate.json"
+    },
+    {
+      "file": "templates/stationery-event-ticket.json",
+      "kind": "template",
+      "name": "Event Ticket",
+      "description": "A 5.5 by 2 inch event ticket with bleed: a dark main body with logo, pass type, event name, one line of detail and date, doors and venue, then a perforated coloured stub with the holder's name, a ticket number and a barcode.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/stationery/stationery-event-ticket.json"
+    },
+    {
+      "file": "templates/stationery-gift-voucher.json",
+      "kind": "template",
+      "name": "Gift Voucher",
+      "description": "A DL (210 by 99 mm) gift voucher with bleed: a coloured panel carrying the value as a large figure and the voucher number, beside the logo and brand, a title and one line on what it buys, To and From lines to write on, the expiry and small print.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/stationery/stationery-gift-voucher.json"
+    },
+    {
+      "file": "templates/stationery-invitation.json",
+      "kind": "template",
+      "name": "Invitation",
+      "description": "A 5 by 7 inch invitation with bleed, centred inside a fine double rule: an ornament, an invitation line, a serif title, a short occasion line, then the date, time and place, dress code and reply details.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/stationery/stationery-invitation.json"
+    },
+    {
+      "file": "templates/stationery-invoice.json",
+      "kind": "template",
+      "name": "Invoice",
+      "description": "An A4 invoice: a dark brand band with sender details, a heavy title beside an accent amount-due box, bill-to and invoice details, five line items with quantity, rate and amount on rules, totals, payment details and terms.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/stationery/stationery-invoice.json"
+    },
+    {
+      "file": "templates/stationery-letterhead.json",
+      "kind": "template",
+      "name": "Letterhead",
+      "description": "A US Letter letterhead: logo, studio name and line beside a cluster of colour circles, date, recipient address and subject, a letter body that runs on to a lighter continuation page, and a three-column contact footer over a tri-colour edge.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/stationery/stationery-letterhead.json"
+    },
+    {
+      "file": "templates/stationery-resume.json",
+      "kind": "template",
+      "name": "Resume, Two Column",
+      "description": "An A4 two-column resume: a tinted sidebar with round portrait, contact details, skills, education and languages beside a condensed name and role, a short profile and four experience entries with dates and summaries.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/stationery/stationery-resume.json"
+    },
+    {
+      "file": "templates/web-article-longread.json",
+      "kind": "template",
+      "name": "Long-form Article",
+      "description": "A 1440 px long-read article page: masthead, kicker, large headline and deck, a wide hero photograph with caption, then the story in one readable column beside a sidebar with byline, date and a pull quote, continuing on plain column pages.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-article-longread.json"
+    },
+    {
+      "file": "templates/web-blog-journal.json",
+      "kind": "template",
+      "name": "Blog Journal",
+      "description": "A 1440 px blog index: masthead with a short introduction, a featured post beside a large photograph, a three by two grid of post cards with images, dates and excerpts, a newsletter sign-up band and a footer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-blog-journal.json"
+    },
+    {
+      "file": "templates/web-docs-reference.json",
+      "kind": "template",
+      "name": "Documentation Page",
+      "description": "A 1440 px developer documentation page: top bar with search, a left navigation column, breadcrumb, title, lede and version notice, then the article as one running story with headings, lists and shaded code blocks, and a right rail with the page contents and a next-page card.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-docs-reference.json"
+    },
+    {
+      "file": "templates/web-email-digest.json",
+      "kind": "template",
+      "name": "Email Newsletter",
+      "description": "A 600 px email newsletter: preheader, logo and date, a rounded hero image, headline, intro and button, two story cards with images, a tinted recipe feature, and a dark footer with address and unsubscribe line.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-email-digest.json"
+    },
+    {
+      "file": "templates/web-event-conference.json",
+      "kind": "template",
+      "name": "Conference Event Page",
+      "description": "A 1440 px event page: a dark geometric hero with headline, date, time and venue and a ticket button, an about section with four numbers, a day programme of six sessions, four speakers with round portraits, a closing ticket band and a footer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-event-conference.json"
+    },
+    {
+      "file": "templates/web-landing-studio.json",
+      "kind": "template",
+      "name": "Landing Page",
+      "description": "A 1440 px landing page: navigation, a split hero with headline, deck and call to action beside a large image, three feature cards, a testimonial band and a footer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-landing-studio.json"
+    },
+    {
+      "file": "templates/web-portfolio-grid.json",
+      "kind": "template",
+      "name": "Portfolio Grid",
+      "description": "A 1440 px studio portfolio on a strict Swiss grid: a large statement headline, studio details, an asymmetric gallery of seven projects with names and captions, a dark studio band with portrait, services and call to action, and a big email footer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-portfolio-grid.json"
+    },
+    {
+      "file": "templates/web-press-release.json",
+      "kind": "template",
+      "name": "Press Release",
+      "description": "A 1440 px newsroom press release: release label and date, headline and deck, a photograph with caption, the release text in a main column broken by a spokesperson quote, and a sidebar with media contact, press kit button, key facts and the company boilerplate.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-press-release.json"
+    },
+    {
+      "file": "templates/web-product-detail.json",
+      "kind": "template",
+      "name": "Product Page",
+      "description": "A 1440 px product page: announcement bar and navigation, a large product photograph with thumbnails, name, deck, price, colour and size options, add to basket and stockist buttons, a feature list, a three-up craft band, a review with rating and a footer.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/library/web/web-product-detail.json"
+    }
+  ]
+}

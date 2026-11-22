@@ -1,0 +1,99 @@
+{
+  "id": "formcel",
+  "name": "FormCel",
+  "repo": "formcel",
+  "licence": "Apache-2.0",
+  "version": "0.48.0",
+  "items": [
+    {
+      "file": "demos/demos.json",
+      "kind": "demo",
+      "name": "Demos",
+      "description": "Holds 3 demos.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/demos.json"
+    },
+    {
+      "file": "templates/conformance.json",
+      "kind": "template",
+      "name": "Conformance",
+      "description": "Holds 1 template.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/conformance.json"
+    },
+    {
+      "file": "templates/formatcheck.json",
+      "kind": "template",
+      "name": "Formatcheck",
+      "description": "Holds 1 template.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/formatcheck.json"
+    },
+    {
+      "file": "templates/formmd.json",
+      "kind": "template",
+      "name": "Formmd",
+      "description": "Holds 28 templates.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/formmd.json"
+    },
+    {
+      "file": "templates/gallery_data.json",
+      "kind": "template",
+      "name": "Gallery Data",
+      "description": "Holds 14 templates.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/gallery_data.json"
+    },
+    {
+      "file": "templates/gallery_finance.json",
+      "kind": "template",
+      "name": "Gallery Finance",
+      "description": "Holds 10 templates.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/gallery_finance.json"
+    },
+    {
+      "file": "templates/gallery_operations.json",
+      "kind": "template",
+      "name": "Gallery Operations",
+      "description": "Holds 10 templates.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/gallery_operations.json"
+    },
+    {
+      "file": "templates/gallery_personal.json",
+      "kind": "template",
+      "name": "Gallery Personal",
+      "description": "Holds 10 templates.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/gallery_personal.json"
+    },
+    {
+      "file": "templates/gallery_sales.json",
+      "kind": "template",
+      "name": "Gallery Sales",
+      "description": "Holds 10 templates.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/gallery_sales.json"
+    },
+    {
+      "file": "templates/native.json",
+      "kind": "template",
+      "name": "Native",
+      "description": "Holds 6 templates.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "backend/app/templates/native.json"
+    }
+  ]
+}

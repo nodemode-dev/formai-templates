@@ -1,0 +1,36 @@
+{
+  "id": "formwav",
+  "name": "FormWav",
+  "repo": "formwav",
+  "licence": "Apache-2.0",
+  "version": "2.31.1",
+  "items": [
+    {
+      "file": "demos/mix.zip",
+      "kind": "demo",
+      "name": "Mix",
+      "description": "",
+      "licence": "CC0-1.0; public domain",
+      "credit": "Recordings, stems and loops in the public domain or under CC0, listed in CREDITS.md",
+      "source": "frontend/public/demos/mix"
+    },
+    {
+      "file": "demos/produce.zip",
+      "kind": "demo",
+      "name": "Produce",
+      "description": "",
+      "licence": "CC0-1.0; public domain",
+      "credit": "Recordings, stems and loops in the public domain or under CC0, listed in CREDITS.md",
+      "source": "frontend/public/demos/produce"
+    },
+    {
+      "file": "demos/repair.zip",
+      "kind": "demo",
+      "name": "Repair",
+      "description": "",
+      "licence": "CC0-1.0; public domain",
+      "credit": "Recordings, stems and loops in the public domain or under CC0, listed in CREDITS.md",
+      "source": "frontend/public/demos/repair"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "formpdf",
+  "name": "FormPDF",
+  "repo": "formPDF",
+  "licence": "Apache-2.0",
+  "version": "0.66.0",
+  "items": [
+    {
+      "file": "demos/alice-in-wonderland.pdf",
+      "kind": "demo",
+      "name": "Alice In Wonderland",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "Public-domain texts and illustrations (Project Gutenberg, NASA), listed in CREDITS.md",
+      "source": "frontend/public/demos/pages/alice-in-wonderland.pdf"
+    },
+    {
+      "file": "demos/season-report-final.pdf",
+      "kind": "demo",
+      "name": "Season Report Final",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "Public-domain texts and illustrations (Project Gutenberg, NASA), listed in CREDITS.md",
+      "source": "frontend/public/demos/protect/season-report-final.pdf"
+    },
+    {
+      "file": "demos/telescope-loan-agreement.pdf",
+      "kind": "demo",
+      "name": "Telescope Loan Agreement",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "Public-domain texts and illustrations (Project Gutenberg, NASA), listed in CREDITS.md",
+      "source": "frontend/public/demos/sign/telescope-loan-agreement.pdf"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "id": "formext",
+  "name": "form.ext",
+  "repo": "form.ext",
+  "licence": "GPL-3.0",
+  "version": "0.10.0",
+  "items": [
+    {
+      "file": "demos/citations-0.1.1.formpkg",
+      "kind": "demo",
+      "name": "Citations 0.1.1",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/citations-0.1.1.formpkg"
+    },
+    {
+      "file": "demos/focus-timer-0.1.0.formpkg",
+      "kind": "demo",
+      "name": "Focus Timer 0.1.0",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/focus-timer-0.1.0.formpkg"
+    },
+    {
+      "file": "demos/golden-hour-0.1.1.formpkg",
+      "kind": "demo",
+      "name": "Golden Hour 0.1.1",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/golden-hour-0.1.1.formpkg"
+    },
+    {
+      "file": "demos/halftone-separations-0.1.0.formpkg",
+      "kind": "demo",
+      "name": "Halftone Separations 0.1.0",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/halftone-separations-0.1.0.formpkg"
+    },
+    {
+      "file": "demos/handwriting-reveal-0.1.0.formpkg",
+      "kind": "demo",
+      "name": "Handwriting Reveal 0.1.0",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/handwriting-reveal-0.1.0.formpkg"
+    },
+    {
+      "file": "demos/mail-merge-0.1.0.formpkg",
+      "kind": "demo",
+      "name": "Mail Merge 0.1.0",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/mail-merge-0.1.0.formpkg"
+    },
+    {
+      "file": "demos/podcast-chapters-0.1.1.formpkg",
+      "kind": "demo",
+      "name": "Podcast Chapters 0.1.1",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/podcast-chapters-0.1.1.formpkg"
+    },
+    {
+      "file": "demos/rehearsal-coach-0.1.1.formpkg",
+      "kind": "demo",
+      "name": "Rehearsal Coach 0.1.1",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/rehearsal-coach-0.1.1.formpkg"
+    },
+    {
+      "file": "demos/scrub-thumbnails-0.1.0.formpkg",
+      "kind": "demo",
+      "name": "Scrub Thumbnails 0.1.0",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/scrub-thumbnails-0.1.0.formpkg"
+    },
+    {
+      "file": "demos/shot-list-0.1.0.formpkg",
+      "kind": "demo",
+      "name": "Shot List 0.1.0",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/shot-list-0.1.0.formpkg"
+    },
+    {
+      "file": "demos/tool-diff-0.1.1.formpkg",
+      "kind": "demo",
+      "name": "Tool Diff 0.1.1",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/tool-diff-0.1.1.formpkg"
+    },
+    {
+      "file": "demos/tool-diff-0.1.2.formpkg",
+      "kind": "demo",
+      "name": "Tool Diff 0.1.2",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/tool-diff-0.1.2.formpkg"
+    },
+    {
+      "file": "demos/trigger-tester-0.1.0.formpkg",
+      "kind": "demo",
+      "name": "Trigger Tester 0.1.0",
+      "description": "",
+      "licence": "GPL-3.0",
+      "credit": "",
+      "source": "frontend/public/demos/studio/packages/trigger-tester-0.1.0.formpkg"
+    },
+    {
+      "file": "templates/formcut-command.zip",
+      "kind": "template",
+      "name": "Split Here",
+      "description": "A headless command that splits the selected clips at the playhead and marks the cut, as one undo step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formcut/command"
+    },
+    {
+      "file": "templates/formcut-panel-commands.zip",
+      "kind": "template",
+      "name": "Beat Markers",
+      "description": "A panel that runs formcut's beat analysis on a chosen clip and marks every beat or bar, a command that opens it, and a headless command for the selected clip.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formcut/panel-commands"
+    },
+    {
+      "file": "templates/formcut-panel.zip",
+      "kind": "template",
+      "name": "Marker List",
+      "description": "A dock panel listing the timeline's markers with timecodes: click to seek, rename, remove, or add one at the playhead.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formcut/panel"
+    },
+    {
+      "file": "templates/formdeck-command.zip",
+      "kind": "template",
+      "name": "Agenda Notes",
+      "description": "A headless command that reads the deck and writes the list of slide titles into the current slide's speaker notes, as one undo step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formdeck/command"
+    },
+    {
+      "file": "templates/formdeck-panel-commands.zip",
+      "kind": "template",
+      "name": "Deck Outline",
+      "description": "A panel that builds a Markdown outline from every slide's text and notes, a command that opens it, and a headless command that saves the outline through the save dialog.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formdeck/panel-commands"
+    },
+    {
+      "file": "templates/formdeck-panel.zip",
+      "kind": "template",
+      "name": "Notes Desk",
+      "description": "A dock panel listing every slide with its notes: go to a slide, rewrite its speaker notes with a raw deck op, one undo step each.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formdeck/panel"
+    },
+    {
+      "file": "templates/formencoder-command.zip",
+      "kind": "template",
+      "name": "Retry Failed",
+      "description": "A headless command that finds failed and stopped outputs in the queue and resets them with queue.resetStatus, as one History step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formencoder/command"
+    },
+    {
+      "file": "templates/formencoder-panel-commands.zip",
+      "kind": "template",
+      "name": "Preset Switch",
+      "description": "A panel that searches the preset list and puts a preset on the selected outputs with queue.setPreset, a command that opens it, and a headless command that applies the last preset again.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formencoder/panel-commands"
+    },
+    {
+      "file": "templates/formencoder-panel.zip",
+      "kind": "template",
+      "name": "Queue Board",
+      "description": "A dock panel showing every output of the queue with its preset and status, the totals, queue Start, Pause and Stop, and an estimate for the output you click.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formencoder/panel"
+    },
+    {
+      "file": "templates/formlit-command.zip",
+      "kind": "template",
+      "name": "Keeper",
+      "description": "A headless command that picks, rates and labels the selected photos with three engine commands in one undo step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formlit/command"
+    },
+    {
+      "file": "templates/formlit-panel-commands.zip",
+      "kind": "template",
+      "name": "Keyword Stamp",
+      "description": "A panel of favourite keywords that adds or removes them on the selected photos, a command that opens it, and a headless command that stamps the last keyword used.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formlit/panel-commands"
+    },
+    {
+      "file": "templates/formlit-panel.zip",
+      "kind": "template",
+      "name": "Rating Desk",
+      "description": "A dock panel showing the selected photos with camera and exposure, and buttons that rate or flag the whole selection in one undo step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formlit/panel"
+    },
+    {
+      "file": "templates/formmcp-command.zip",
+      "kind": "template",
+      "name": "Lean Start",
+      "description": "A headless command that reads the apps and sets each server's start policy to demand with set_start, as one step formMCP can undo.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formmcp/command"
+    },
+    {
+      "file": "templates/formmcp-panel-commands.zip",
+      "kind": "template",
+      "name": "Profile Snapshots",
+      "description": "A panel that saves, uses and deletes formMCP profiles for the chosen agent, a command that opens it, and a headless command that saves a dated snapshot.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formmcp/panel-commands"
+    },
+    {
+      "file": "templates/formmcp-panel.zip",
+      "kind": "template",
+      "name": "Agent Switchboard",
+      "description": "A dock panel that reads formMCP's apps and agents, switches the window's agent and filter, and offers or withdraws an app per agent with set_for.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formmcp/panel"
+    },
+    {
+      "file": "templates/formmd-command.zip",
+      "kind": "template",
+      "name": "Dated Entry",
+      "description": "A headless command that inserts a dated heading and a to-do at the end of the page with doc.insertMarkdown and moves the cursor into it.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formmd/command"
+    },
+    {
+      "file": "templates/formmd-panel-commands.zip",
+      "kind": "template",
+      "name": "Reading Time",
+      "description": "A panel that measures the page and the selection from document.read, a command that opens it, and a headless command that writes or updates the reading time under the title.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formmd/panel-commands"
+    },
+    {
+      "file": "templates/formmd-panel.zip",
+      "kind": "template",
+      "name": "Heading Map",
+      "description": "A dock panel that reads the page's blocks, maps its headings with the words under each, and moves the cursor to one with doc.select.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formmd/panel"
+    },
+    {
+      "file": "templates/formpdf-command.zip",
+      "kind": "template",
+      "name": "Number Pages",
+      "description": "A headless command that runs formpdf's page_numbers change on every page after the cover, as one undoable change.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formpdf/command"
+    },
+    {
+      "file": "templates/formpdf-panel-commands.zip",
+      "kind": "template",
+      "name": "Watermark",
+      "description": "A panel for formpdf's watermark change with words, colour, angle, opacity and pages, a command that opens it, and a headless Mark as Draft.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formpdf/panel-commands"
+    },
+    {
+      "file": "templates/formpdf-panel.zip",
+      "kind": "template",
+      "name": "Page Words",
+      "description": "A dock panel that reads the PDF's text, counts the words on every page and goes to a page when clicked.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formpdf/panel"
+    },
+    {
+      "file": "templates/formskills-command.zip",
+      "kind": "template",
+      "name": "Format Check",
+      "description": "A headless command that reads which skill is open and runs formskills' check on it, then reports the errors and warnings.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formskills/command"
+    },
+    {
+      "file": "templates/formskills-panel-commands.zip",
+      "kind": "template",
+      "name": "Skill Finder",
+      "description": "A panel that runs formskills' search and opens a hit with open-skill and open-file, a command that opens it, and a headless command that downloads the open skill.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formskills/panel-commands"
+    },
+    {
+      "file": "templates/formskills-panel.zip",
+      "kind": "template",
+      "name": "Skill Shelf",
+      "description": "A dock panel that reads the skill library with each skill's format check, and opens a skill in the reader with open-skill.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formskills/panel"
+    },
+    {
+      "file": "templates/formtray-command.zip",
+      "kind": "template",
+      "name": "Pin Running",
+      "description": "A headless command that reads formtray's apps and pins every running one to the Stack with stack.pin, as one change.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formtray/command"
+    },
+    {
+      "file": "templates/formtray-panel-commands.zip",
+      "kind": "template",
+      "name": "Group Maker",
+      "description": "A panel that makes a group tile from the ticked apps with group.create, a command that opens it, and a headless command that groups the running apps.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formtray/panel-commands"
+    },
+    {
+      "file": "templates/formtray-panel.zip",
+      "kind": "template",
+      "name": "Board Tidy",
+      "description": "A tile on the Widgets board that lists the board's tiles and resizes, moves, removes and adds them with formtray's board commands.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formtray/panel"
+    },
+    {
+      "file": "templates/formvfx-command.zip",
+      "kind": "template",
+      "name": "Fade In Out",
+      "description": "A headless command that keys the opacity of every selected layer to fade in and out, all in one History step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formvfx/command"
+    },
+    {
+      "file": "templates/formvfx-panel-commands.zip",
+      "kind": "template",
+      "name": "Lower Third",
+      "description": "A panel that builds a shape bar and two text layers parented to it (using $N.layer results between ops), a command that opens it, and a headless command that adds the last one again.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formvfx/panel-commands"
+    },
+    {
+      "file": "templates/formvfx-panel.zip",
+      "kind": "template",
+      "name": "Layer Strip",
+      "description": "A dock panel listing the composition's layers with timing, effects and masks: click to select, and add layer markers at the current time.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formvfx/panel"
+    },
+    {
+      "file": "templates/formvis-command.zip",
+      "kind": "template",
+      "name": "Name Stamp",
+      "description": "A headless command that reads the document and adds a text layer with its name and size, as one undo step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formvis/command"
+    },
+    {
+      "file": "templates/formvis-panel-commands.zip",
+      "kind": "template",
+      "name": "Frame Maker",
+      "description": "A panel to choose a frame's colour and width, a command that opens it, and a headless command that adds the last frame as shape layers in one undo step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formvis/panel-commands"
+    },
+    {
+      "file": "templates/formvis-panel.zip",
+      "kind": "template",
+      "name": "Layer List",
+      "description": "A dock panel that lists the layers of the open picture, shows or hides each one and makes it active.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formvis/panel"
+    },
+    {
+      "file": "templates/formwav-command.zip",
+      "kind": "template",
+      "name": "Loop Selection",
+      "description": "A headless command that reads the selection and sets the loop to the selected range or clips, as one undo step.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formwav/command"
+    },
+    {
+      "file": "templates/formwav-panel-commands.zip",
+      "kind": "template",
+      "name": "Region Loops",
+      "description": "A panel listing the session's regions that loops one in a click, a command that opens it, and a headless command that turns the selected range into a region.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formwav/panel-commands"
+    },
+    {
+      "file": "templates/formwav-panel.zip",
+      "kind": "template",
+      "name": "Marker List",
+      "description": "A dock panel listing the session's markers with times: add one at the playhead (in samples), rename or remove it.",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "templates/formwav/panel"
+    }
+  ]
+}

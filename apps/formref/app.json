@@ -1,0 +1,39 @@
+{
+  "id": "formref",
+  "name": "FormRef",
+  "repo": "formref",
+  "licence": "Apache-2.0",
+  "version": "0.46.1",
+  "items": [
+    {
+      "file": "demos/colour.formref",
+      "kind": "demo",
+      "name": "Colour",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "Pictures from public-domain and openly licensed sources, listed in CREDITS.md",
+      "source": "frontend/public/demos/colour/board.formref",
+      "preview": "previews/colour.webp"
+    },
+    {
+      "file": "demos/poster.formref",
+      "kind": "demo",
+      "name": "Poster",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "Pictures from public-domain and openly licensed sources, listed in CREDITS.md",
+      "source": "frontend/public/demos/poster/board.formref",
+      "preview": "previews/poster.webp"
+    },
+    {
+      "file": "demos/value.formref",
+      "kind": "demo",
+      "name": "Value",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "Pictures from public-domain and openly licensed sources, listed in CREDITS.md",
+      "source": "frontend/public/demos/value/board.formref",
+      "preview": "previews/value.webp"
+    }
+  ]
+}

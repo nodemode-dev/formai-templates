@@ -1,0 +1,49 @@
+{
+  "id": "formfabric",
+  "name": "FormFabric",
+  "repo": "formfabric",
+  "licence": "Apache-2.0",
+  "version": "0.30.0",
+  "items": [
+    {
+      "file": "demos/dress.ffbrc",
+      "kind": "demo",
+      "name": "Dress",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "assets/samples/dress.ffbrc",
+      "preview": "previews/dress.webp"
+    },
+    {
+      "file": "demos/skirt.ffbrc",
+      "kind": "demo",
+      "name": "Skirt",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "assets/samples/skirt.ffbrc",
+      "preview": "previews/skirt.webp"
+    },
+    {
+      "file": "demos/tshirt-female.ffbrc",
+      "kind": "demo",
+      "name": "Tshirt Female",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "assets/samples/tshirt-female.ffbrc",
+      "preview": "previews/tshirt-female.webp"
+    },
+    {
+      "file": "demos/tshirt-male.ffbrc",
+      "kind": "demo",
+      "name": "Tshirt Male",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "assets/samples/tshirt-male.ffbrc",
+      "preview": "previews/tshirt-male.webp"
+    }
+  ]
+}

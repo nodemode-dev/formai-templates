@@ -1,0 +1,36 @@
+{
+  "id": "formtxt",
+  "name": "FormTxt",
+  "repo": "formtxt",
+  "licence": "Apache-2.0",
+  "version": "0.38.0",
+  "items": [
+    {
+      "file": "demos/harbour-trust-annual-report.ftxt",
+      "kind": "demo",
+      "name": "Harbour Trust Annual Report",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "frontend/public/demos/harbour-trust-annual-report.ftxt"
+    },
+    {
+      "file": "demos/riverside-newsletter.ftxt",
+      "kind": "demo",
+      "name": "Riverside Newsletter",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "frontend/public/demos/riverside-newsletter.ftxt"
+    },
+    {
+      "file": "demos/tidal-flats-paper.ftxt",
+      "kind": "demo",
+      "name": "Tidal Flats Paper",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "frontend/public/demos/tidal-flats-paper.ftxt"
+    }
+  ]
+}

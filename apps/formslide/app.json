@@ -1,0 +1,27 @@
+{
+  "id": "formslide",
+  "name": "FormDeck",
+  "repo": "formdeck",
+  "licence": "Apache-2.0",
+  "version": "0.46.3",
+  "items": [
+    {
+      "file": "demos/build.zip",
+      "kind": "demo",
+      "name": "Build",
+      "description": "",
+      "licence": "Pexels License; public domain (NASA); CC BY 4.0 (ESA/Hubble)",
+      "credit": "Photographs by Pexels photographers and NASA pictures, listed in CREDITS.md",
+      "source": "frontend/public/demos/build"
+    },
+    {
+      "file": "demos/nasa.zip",
+      "kind": "demo",
+      "name": "Nasa",
+      "description": "",
+      "licence": "Pexels License; public domain (NASA); CC BY 4.0 (ESA/Hubble)",
+      "credit": "Photographs by Pexels photographers and NASA pictures, listed in CREDITS.md",
+      "source": "frontend/public/demos/nasa"
+    }
+  ]
+}

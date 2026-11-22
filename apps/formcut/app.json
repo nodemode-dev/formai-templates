@@ -1,0 +1,48 @@
+{
+  "id": "formcut",
+  "name": "FormCut",
+  "repo": "formcut",
+  "licence": "Apache-2.0",
+  "version": "2.20.1",
+  "items": [
+    {
+      "file": "demos/deliver.zip",
+      "kind": "demo",
+      "name": "Deliver",
+      "description": "",
+      "licence": "Pexels License; CC0-1.0",
+      "credit": "Footage by Pexels creators and music in the public domain, listed in CREDITS.md",
+      "source": "frontend/public/demos/deliver",
+      "preview": "previews/deliver.jpg"
+    },
+    {
+      "file": "demos/edit.zip",
+      "kind": "demo",
+      "name": "Edit",
+      "description": "",
+      "licence": "Pexels License; CC0-1.0",
+      "credit": "Footage by Pexels creators and music in the public domain, listed in CREDITS.md",
+      "source": "frontend/public/demos/edit",
+      "preview": "previews/edit.jpg"
+    },
+    {
+      "file": "demos/grade.zip",
+      "kind": "demo",
+      "name": "Grade",
+      "description": "",
+      "licence": "Pexels License; CC0-1.0",
+      "credit": "Footage by Pexels creators and music in the public domain, listed in CREDITS.md",
+      "source": "frontend/public/demos/grade",
+      "preview": "previews/grade.jpg"
+    },
+    {
+      "file": "demos/load-demo.zip",
+      "kind": "demo",
+      "name": "Demo",
+      "description": "",
+      "licence": "Pexels License",
+      "credit": "Footage and a picture by Pexels creators, listed in the README.md inside and in CREDITS.md",
+      "source": "examples/demo"
+    }
+  ]
+}

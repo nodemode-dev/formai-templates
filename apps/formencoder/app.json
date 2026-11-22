@@ -1,0 +1,36 @@
+{
+  "id": "formencoder",
+  "name": "FormEncoder",
+  "repo": "formencoder",
+  "licence": "Apache-2.0",
+  "version": "0.13.1",
+  "items": [
+    {
+      "file": "demos/broadcast.zip",
+      "kind": "demo",
+      "name": "Broadcast",
+      "description": "",
+      "licence": "Pexels License; public domain",
+      "credit": "Footage by Pexels creators and public-domain sound, listed in CREDITS.md",
+      "source": "frontend/public/demos/broadcast"
+    },
+    {
+      "file": "demos/inspect.zip",
+      "kind": "demo",
+      "name": "Inspect",
+      "description": "",
+      "licence": "Pexels License; public domain",
+      "credit": "Footage by Pexels creators and public-domain sound, listed in CREDITS.md",
+      "source": "frontend/public/demos/inspect"
+    },
+    {
+      "file": "demos/queue.zip",
+      "kind": "demo",
+      "name": "Queue",
+      "description": "",
+      "licence": "Pexels License; public domain",
+      "credit": "Footage by Pexels creators and public-domain sound, listed in CREDITS.md",
+      "source": "frontend/public/demos/queue"
+    }
+  ]
+}

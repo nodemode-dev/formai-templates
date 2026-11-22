@@ -1,0 +1,36 @@
+{
+  "id": "formlit",
+  "name": "FormLit",
+  "repo": "formlit",
+  "licence": "Apache-2.0",
+  "version": "0.56.0",
+  "items": [
+    {
+      "file": "demos/develop.zip",
+      "kind": "demo",
+      "name": "formlit Demo Develop",
+      "description": "",
+      "licence": "Pexels License; CC0-1.0; NASA media guidelines",
+      "credit": "Photographs by Pexels photographers, a NASA image and a CC0 piano piece, listed in CREDITS.md",
+      "source": "frontend/public/demos/develop"
+    },
+    {
+      "file": "demos/library.zip",
+      "kind": "demo",
+      "name": "formlit Demo Library",
+      "description": "",
+      "licence": "Pexels License; CC0-1.0; NASA media guidelines",
+      "credit": "Photographs by Pexels photographers, a NASA image and a CC0 piano piece, listed in CREDITS.md",
+      "source": "frontend/public/demos/library"
+    },
+    {
+      "file": "demos/share.zip",
+      "kind": "demo",
+      "name": "formlit Demo Share",
+      "description": "",
+      "licence": "Pexels License; CC0-1.0; NASA media guidelines",
+      "credit": "Photographs by Pexels photographers, a NASA image and a CC0 piano piece, listed in CREDITS.md",
+      "source": "frontend/public/demos/share"
+    }
+  ]
+}

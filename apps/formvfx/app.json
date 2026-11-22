@@ -1,0 +1,45 @@
+{
+  "id": "formvfx",
+  "name": "FormVFX",
+  "repo": "formVFX",
+  "licence": "Apache-2.0",
+  "version": "0.60.0",
+  "items": [
+    {
+      "file": "demos/coastline.zip",
+      "kind": "demo",
+      "name": "Coastline",
+      "description": "",
+      "licence": "Pexels License",
+      "credit": "Footage and photographs by Pexels creators, listed in CREDITS.md",
+      "source": "frontend/public/demos/coastline"
+    },
+    {
+      "file": "demos/keying.zip",
+      "kind": "demo",
+      "name": "Keying",
+      "description": "",
+      "licence": "Pexels License",
+      "credit": "Footage and photographs by Pexels creators, listed in CREDITS.md",
+      "source": "frontend/public/demos/keying"
+    },
+    {
+      "file": "demos/motion.zip",
+      "kind": "demo",
+      "name": "Motion",
+      "description": "",
+      "licence": "Pexels License",
+      "credit": "Footage and photographs by Pexels creators, listed in CREDITS.md",
+      "source": "frontend/public/demos/motion"
+    },
+    {
+      "file": "templates/text-animators.json",
+      "kind": "template",
+      "name": "Text Animators",
+      "description": "",
+      "licence": "Apache-2.0",
+      "credit": "",
+      "source": "presets/text-animators.json"
+    }
+  ]
+}

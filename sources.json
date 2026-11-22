@@ -1,0 +1,257 @@
+{
+  "format": "formai-templates-sources",
+  "format_version": 1,
+  "notes": "One entry per app. Each pattern has a glob, or a list of globs, relative to the root of the app's checkout at its released tag. type file: each matching file is one item. type folder: each matching folder is one item, stored as one deterministic .zip. store is the stored file name; {name} is the file or folder name without extension, {stem} the same, {parent} the name of the folder that holds it, {ext} the file extension. meta is a JSON file (relative to the item, or the item itself when it is a .json file) whose name and description fields are read. preview is a picture the app itself ships for that item, relative to the checkout root, with the same placeholders plus {dir} (the folder that holds the item) and {path} (the item's own path). describe_list counts the entries of a JSON list and says so in the description.",
+  "apps": [
+    {
+      "id": "format",
+      "repo": "formAT",
+      "name": "FormAT",
+      "licence": "Apache-2.0",
+      "credits": ["backend/app/demos/solar-system/files/CREDITS.md"],
+      "patterns": [
+        {
+          "glob": "backend/app/demos/*", "type": "folder", "kind": "demo",
+          "meta": "about.json",
+          "credit": "Solar system figures and pictures from public-domain NASA sources, listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formcel",
+      "repo": "formcel",
+      "name": "FormCel",
+      "licence": "Apache-2.0",
+      "credits": [],
+      "patterns": [
+        { "glob": "backend/app/templates/gallery_*.json", "type": "file", "kind": "template", "describe_list": "templates" },
+        { "glob": "backend/app/templates/native.json", "type": "file", "kind": "template", "describe_list": "templates" },
+        { "glob": "backend/app/templates/formmd.json", "type": "file", "kind": "template", "describe_list": "templates" },
+        { "glob": "backend/app/templates/conformance.json", "type": "file", "kind": "template", "describe_list": "templates" },
+        { "glob": "backend/app/templates/formatcheck.json", "type": "file", "kind": "template", "describe_list": "templates" },
+        { "glob": "backend/app/templates/demos.json", "type": "file", "kind": "demo", "describe_list": "demos" }
+      ]
+    },
+    {
+      "id": "formcut",
+      "repo": "formcut",
+      "name": "FormCut",
+      "licence": "Apache-2.0",
+      "credits": ["demo/CREDITS.md", "demos/deliver/CREDITS.md", "demos/grade/CREDITS.md", "examples/demo/README.md"],
+      "patterns": [
+        {
+          "glob": "frontend/public/demos/*", "type": "folder", "kind": "demo",
+          "preview": "{path}/poster.jpg",
+          "licence": "Pexels License; CC0-1.0",
+          "credit": "Footage by Pexels creators and music in the public domain, listed in CREDITS.md"
+        },
+        {
+          "glob": "examples/demo", "type": "folder", "kind": "demo",
+          "store": "load-demo.zip",
+          "licence": "Pexels License",
+          "credit": "Footage and a picture by Pexels creators, listed in the README.md inside and in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formdesign",
+      "repo": "formdesign",
+      "name": "FormDesign",
+      "licence": "Apache-2.0",
+      "credits": [],
+      "patterns": [
+        { "glob": "backend/app/templates/library/*/*.json", "type": "file", "kind": "template", "meta": "." }
+      ]
+    },
+    {
+      "id": "formencoder",
+      "repo": "formencoder",
+      "name": "FormEncoder",
+      "licence": "Apache-2.0",
+      "credits": ["frontend/public/demos/CREDITS.md"],
+      "patterns": [
+        {
+          "glob": "frontend/public/demos/*", "type": "folder", "kind": "demo",
+          "licence": "Pexels License; public domain",
+          "credit": "Footage by Pexels creators and public-domain sound, listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formext",
+      "repo": "form.ext",
+      "name": "form.ext",
+      "licence": "GPL-3.0",
+      "credits": [],
+      "extra": [{ "from": "templates/LICENSE", "to": "LICENSE-templates" }],
+      "patterns": [
+        {
+          "glob": "templates/*/*", "type": "folder", "kind": "template",
+          "exclude": ["templates/_shared/*"],
+          "store": "{parent}-{name}.zip", "meta": "template.json",
+          "licence": "Apache-2.0"
+        },
+        { "glob": "frontend/public/demos/studio/packages/*.formpkg", "type": "file", "kind": "demo" }
+      ]
+    },
+    {
+      "id": "formfabric",
+      "repo": "formfabric",
+      "name": "FormFabric",
+      "licence": "Apache-2.0",
+      "credits": [],
+      "patterns": [
+        { "glob": "assets/samples/*.ffbrc", "type": "file", "kind": "demo", "preview": "{dir}/{stem}.webp" }
+      ]
+    },
+    {
+      "id": "formlit",
+      "repo": "formlit",
+      "name": "FormLit",
+      "licence": "Apache-2.0",
+      "credits": ["demo/CREDITS.md", "demos/develop/CREDITS.md", "demos/share/CREDITS.md"],
+      "patterns": [
+        {
+          "glob": "frontend/public/demos/*", "type": "folder", "kind": "demo",
+          "meta": "demo.json",
+          "licence": "Pexels License; CC0-1.0; NASA media guidelines",
+          "credit": "Photographs by Pexels photographers, a NASA image and a CC0 piano piece, listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formpdf",
+      "repo": "formPDF",
+      "name": "FormPDF",
+      "licence": "Apache-2.0",
+      "credits": ["demo/CREDITS.md", "demos/sign/CREDITS.md", "demos/protect/CREDITS.md"],
+      "patterns": [
+        {
+          "glob": "frontend/public/demos/*/*.pdf", "type": "file", "kind": "demo",
+          "credit": "Public-domain texts and illustrations (Project Gutenberg, NASA), listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formref",
+      "repo": "formref",
+      "name": "FormRef",
+      "licence": "Apache-2.0",
+      "credits": ["frontend/public/demos/CREDITS.md"],
+      "patterns": [
+        {
+          "glob": "frontend/public/demos/*/board.formref", "type": "file", "kind": "demo",
+          "store": "{parent}.formref", "name_from": "parent", "preview": "{dir}/cover.webp",
+          "credit": "Pictures from public-domain and openly licensed sources, listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formslide",
+      "repo": "formdeck",
+      "name": "FormDeck",
+      "licence": "Apache-2.0",
+      "credits": ["demo/CREDITS.md", "demos/build/CREDITS.md"],
+      "patterns": [
+        {
+          "glob": "frontend/public/demos/*", "type": "folder", "kind": "demo",
+          "licence": "Pexels License; public domain (NASA); CC BY 4.0 (ESA/Hubble)",
+          "credit": "Photographs by Pexels photographers and NASA pictures, listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formtxt",
+      "repo": "formtxt",
+      "name": "FormTxt",
+      "licence": "Apache-2.0",
+      "credits": ["demos/newsletter/CREDITS.md", "demos/paper/CREDITS.md"],
+      "patterns": [
+        { "glob": "frontend/public/demos/*.ftxt", "type": "file", "kind": "demo" }
+      ]
+    },
+    {
+      "id": "formvfx",
+      "repo": "formVFX",
+      "name": "FormVFX",
+      "licence": "Apache-2.0",
+      "credits": ["demo/CREDITS.md", "demos/keying/CREDITS.md", "demos/motion/CREDITS.md"],
+      "patterns": [
+        { "glob": "presets/text-animators.json", "type": "file", "kind": "template" },
+        {
+          "glob": "frontend/public/demos/*", "type": "folder", "kind": "demo",
+          "licence": "Pexels License",
+          "credit": "Footage and photographs by Pexels creators, listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formvis",
+      "repo": "formvis",
+      "name": "FormVis",
+      "licence": "Apache-2.0",
+      "credits": ["demo/CREDITS.md", "demos/design/CREDITS.md", "demos/retouch/CREDITS.md"],
+      "patterns": [
+        {
+          "glob": "frontend/public/demos/*", "type": "folder", "kind": "demo",
+          "licence": "Pexels License",
+          "credit": "Photographs by Pexels photographers, listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formwav",
+      "repo": "formwav",
+      "name": "FormWav",
+      "licence": "Apache-2.0",
+      "credits": ["frontend/public/demos/CREDITS.md"],
+      "patterns": [
+        {
+          "glob": "frontend/public/demos/*", "type": "folder", "kind": "demo",
+          "licence": "CC0-1.0; public domain",
+          "credit": "Recordings, stems and loops in the public domain or under CC0, listed in CREDITS.md"
+        }
+      ]
+    },
+    {
+      "id": "formweb",
+      "repo": "formweb",
+      "name": "FormWeb",
+      "licence": "Apache-2.0",
+      "credits": ["frontend/public/demos/CREDITS.md"],
+      "extra": [
+        { "from": "frontend/public/demos/licenses/OFL-IBMPlexMono.txt", "to": "LICENSE-OFL-IBMPlexMono.txt" },
+        { "from": "frontend/public/demos/licenses/OFL-Oswald.txt", "to": "LICENSE-OFL-Oswald.txt" },
+        { "from": "frontend/public/demos/licenses/OFL-PlayfairDisplay.txt", "to": "LICENSE-OFL-PlayfairDisplay.txt" },
+        { "from": "frontend/public/demos/licenses/OFL-SourceSerif4.txt", "to": "LICENSE-OFL-SourceSerif4.txt" },
+        { "from": "frontend/public/demos/licenses/OFL-SpaceGrotesk.txt", "to": "LICENSE-OFL-SpaceGrotesk.txt" },
+        { "from": "frontend/public/demos/licenses/OFL-WorkSans.txt", "to": "LICENSE-OFL-WorkSans.txt" },
+        { "from": "library/presets/fonts/LICENSE-Inter.txt", "to": "LICENSE-OFL-Inter.txt" }
+      ],
+      "patterns": [
+        { "glob": "library/starters/*.json", "type": "file", "kind": "template", "meta": "." },
+        { "glob": "library/presets/*.json", "type": "file", "kind": "template", "meta": "." },
+        {
+          "glob": [
+            "library/sections/formai-*.json", "library/sections/format-*.json", "library/sections/formcel-*.json",
+            "library/sections/formcut-*.json", "library/sections/formdam-*.json", "library/sections/formdeck-*.json",
+            "library/sections/formdesign-*.json", "library/sections/formencoder-*.json", "library/sections/formfabric-*.json",
+            "library/sections/formmcp-*.json", "library/sections/formmd-*.json", "library/sections/formpath-*.json",
+            "library/sections/formref-*.json", "library/sections/formskills-*.json", "library/sections/formsurface-*.json",
+            "library/sections/formtray-*.json", "library/sections/formtxt-*.json", "library/sections/formvfx-*.json",
+            "library/sections/formvis-*.json"
+          ],
+          "type": "file", "kind": "template", "meta": ".",
+          "preview": "library/sections/thumbs/{stem}.webp"
+        },
+        { "glob": "library/components/*", "type": "folder", "kind": "template", "meta": "manifest.json", "preview": "{path}/poster.webp" },
+        {
+          "glob": "frontend/public/demos/*/site.fweb", "type": "file", "kind": "demo",
+          "store": "{parent}.fweb", "name_from": "parent", "preview": "{dir}/cover.webp",
+          "licence": "Apache-2.0; NASA media guidelines; CC BY 4.0 (ESA/Hubble)",
+          "credit": "NASA pictures and the Hubble Ultra Deep Field (NASA, ESA, S. Beckwith (STScI) and the HUDF Team), listed in CREDITS.md"
+        }
+      ]
+    }
+  ]
+}

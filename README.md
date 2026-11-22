@@ -23,8 +23,8 @@ app's own licence. FormSculpt's are not gathered for now.
 | FormVFX | 0.60.0 | 1 | 3 | 12.3 MB |
 | FormVis | 2.8.1 | 0 | 3 | 3.5 MB |
 | FormWav | 2.31.1 | 0 | 3 | 7.8 MB |
-| FormWeb | 0.27.0 | 50 | 3 | 10.9 MB |
-| **All 16 apps** | | **167** | **54** | **178.2 MB** |
+| FormWeb | 0.28.0 | 50 | 8 | 14.2 MB |
+| **All 16 apps** | | **167** | **59** | **181.5 MB** |
 
 Some files hold many: FormCel's nine template files hold 90 workbook templates and its demo file three demos, and
 FormVFX's text animators file holds 169 presets. `python3 -I scripts/build_index.py --table` prints this table.
@@ -60,12 +60,13 @@ FormPortal keeps it only when its size and SHA-256 match the index. A mismatch k
   "format_version": 1,
   "generated": "2026-11-22T02:04:32Z",
   "apps": [
-    { "id": "formweb", "name": "FormWeb", "licence": "Apache-2.0", "version": "0.27.0",
+    { "id": "formweb", "name": "FormWeb", "licence": "Apache-2.0", "version": "0.28.0",
       "items": [
-        { "id": "formweb/demos/lowlight", "kind": "demo", "name": "Lowlight", "description": "",
-          "path": "apps/formweb/demos/lowlight.fweb", "bytes": 3588882, "sha256": "64 hex characters",
-          "licence": "Apache-2.0; NASA media guidelines; CC BY 4.0 (ESA/Hubble)", "credit": "...",
-          "preview": "apps/formweb/previews/lowlight.webp" }
+        { "id": "formweb/demos/wenlow-type-day", "kind": "demo", "name": "Wenlow Type Day",
+          "description": "A one-day conference with a programme, speakers from the CMS, ...",
+          "path": "apps/formweb/demos/wenlow-type-day.fweb", "bytes": 702960, "sha256": "64 hex characters",
+          "licence": "Apache-2.0; OFL-1.1 (fonts)", "credit": "...", "type": "event",
+          "preview": "apps/formweb/previews/wenlow-type-day.webp", "preview_sha256": "64 hex characters" }
       ] }
   ]
 }
@@ -73,8 +74,12 @@ FormPortal keeps it only when its size and SHA-256 match the index. A mismatch k
 
 `kind` is `template` or `demo`. `path` always names one file under `apps/`. `name` and `description` come from the
 template's own metadata where it has them, otherwise the name is its file name in title case and the description is
-empty. `preview` is present only when the app ships a picture for that item. Apps are sorted by id, items by kind,
-then name. `generated` (a timestamp for machines) is the only field that changes between two runs on the same files.
+empty. `licence` and `credit` are the item's own: its metadata's where it gives them, otherwise those its pattern in
+`sources.json` gives. `type` is present only when the metadata names the kind of site: `business`, `portfolio`,
+`blog`, `event` or `shop` (FormWeb's demos have it). `preview` is present only when the app ships a picture for that
+item, and then `preview_sha256` is the SHA-256 of that picture. Both fields came in 0.2.0 and leave `format_version` at
+1: a reader that does not know them ignores them. Apps are sorted by id, items by kind, then name. `generated` (a
+timestamp for machines) is the only field that changes between two runs on the same files.
 
 ## How a template gets here
 

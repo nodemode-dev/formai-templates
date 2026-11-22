@@ -15,7 +15,8 @@ are collected, and the spec is kept at scripts/family.spec.json, rewritten
 only when the collected files change (formadaptor's generator contract).
 
 The copy is deterministic: a folder is stored as one .zip with sorted
-entries and fixed times, so the same inputs give the same bytes. Files that
+entries and fixed times, so the same inputs give the same bytes; hidden
+files (.gitkeep, .DS_Store) are left out of it. Files that
 are no longer in the source are removed. index.json is then written by
 scripts/build_index.py.
 
@@ -108,7 +109,9 @@ def list_count(item: Path) -> int:
 
 
 def folder_files(folder: Path) -> list[Path]:
-    files = [p for p in folder.rglob("*") if p.is_file() and not p.is_symlink()]
+    files = [p for p in folder.rglob("*")
+             if p.is_file() and not p.is_symlink()
+             and not any(part.startswith(".") for part in p.relative_to(folder).parts)]
     return sorted(files, key=lambda p: p.relative_to(folder).as_posix())
 
 

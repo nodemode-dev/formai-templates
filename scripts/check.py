@@ -5,7 +5,9 @@
 
 Fails (exit 1, one line per problem) when:
 - an indexed file is missing, has another size or SHA-256, or its path is not
-  a plain relative path under apps/;
+  a plain relative path under apps/; a preview without a preview_sha256, or
+  with one its file does not match;
+- an item's type is given and is not business, portfolio, blog, event or shop;
 - a file under apps/ is not in the index (other than an app's app.json,
   LICENSE, LICENSE-* and CREDITS.md), or an app has no LICENSE;
 - an item has no licence, an unknown kind, or an id used twice;
@@ -39,6 +41,7 @@ EMOJI = re.compile(
 HOME = re.compile(r"(?:/Users/|/home/|[A-Za-z]:\\\\?Users\\\\?)([A-Za-z0-9._-]+)")
 ALLOWED_HOMES = {"user", "runner", "username", "name", "you", "me", "example"}
 META = {"app.json", "LICENSE", "CREDITS.md"}
+SITE_TYPES = {"business", "portfolio", "blog", "event", "shop"}
 
 
 def sha256(path: Path) -> str:
@@ -136,6 +139,8 @@ def main() -> int:
                 problems.append(f"index.json: {item_id}: kind must be template or demo")
             if not str(item.get("licence", "")).strip():
                 problems.append(f"index.json: {item_id}: no licence")
+            if "type" in item and item["type"] not in SITE_TYPES:
+                problems.append(f"index.json: {item_id}: type must be business, portfolio, blog, event or shop")
             for key in ("path", "preview"):
                 if key == "preview" and key not in item:
                     continue
@@ -153,6 +158,8 @@ def main() -> int:
                         problems.append(f"{value}: {target.stat().st_size} bytes, the index says {item.get('bytes')}")
                     elif sha256(target) != item.get("sha256"):
                         problems.append(f"{value}: SHA-256 differs from the index")
+                elif sha256(target) != item.get("preview_sha256"):
+                    problems.append(f"{value}: no preview_sha256 in the index, or one the file does not match")
     if app_ids != sorted(app_ids):
         problems.append("index.json: apps are not sorted by id")
 

@@ -1,7 +1,7 @@
 {
   "format": "formai-templates-sources",
   "format_version": 1,
-  "notes": "One entry per app. Each pattern has a glob, or a list of globs, relative to the root of the app's checkout at its released tag. type file: each matching file is one item. type folder: each matching folder is one item, stored as one deterministic .zip. store is the stored file name; {name} is the file or folder name without extension, {stem} the same, {parent} the name of the folder that holds it, {ext} the file extension. meta is a JSON file (relative to the item, or the item itself when it is a .json file) whose name and description fields are read. preview is a picture the app itself ships for that item, relative to the checkout root, with the same placeholders plus {dir} (the folder that holds the item) and {path} (the item's own path). describe_list counts the entries of a JSON list and says so in the description.",
+  "notes": "One entry per app. Each pattern has a glob, or a list of globs, relative to the root of the app's checkout at its released tag. type file: each matching file is one item. type folder: each matching folder is one item, stored as one deterministic .zip. exclude is a list of globs whose matches are left out. store is the stored file name; {name} is the file or folder name without extension, {stem} the same, {parent} the name of the folder that holds it, {ext} the file extension. meta is a JSON file whose fields are read: relative to the item, or the item itself when it is \".\", or, when it holds a placeholder, relative to the checkout root with the placeholders of preview. Its name (or title) and description (or summary, blurb) become the item's; its type is copied when it is business, portfolio, blog, event or shop; its licence and credit, when it has them, are preferred to the pattern's. name_from parent names the item after the folder that holds it instead. licence and credit are the item's, and licence defaults to the app's. preview is a picture the app itself ships for that item, relative to the checkout root, with the same placeholders plus {dir} (the folder that holds the item) and {path} (the item's own path). describe_list counts the entries of a JSON list and says so in the description.",
   "apps": [
     {
       "id": "format",
@@ -248,9 +248,22 @@
         { "glob": "library/components/*", "type": "folder", "kind": "template", "meta": "manifest.json", "preview": "{path}/poster.webp" },
         {
           "glob": "frontend/public/demos/*/site.fweb", "type": "file", "kind": "demo",
-          "store": "{parent}.fweb", "name_from": "parent", "preview": "{dir}/cover.webp",
-          "licence": "Apache-2.0; NASA media guidelines; CC BY 4.0 (ESA/Hubble)",
+          "exclude": ["frontend/public/demos/lowlight/*", "frontend/public/demos/looking-back/*"],
+          "store": "{parent}.fweb", "meta": "{dir}/demo.json", "preview": "{dir}/cover.webp",
+          "licence": "Apache-2.0; OFL-1.1 (fonts)",
+          "credit": "Pictures drawn for the site, no photographs, listed in CREDITS.md"
+        },
+        {
+          "glob": "frontend/public/demos/lowlight/site.fweb", "type": "file", "kind": "demo",
+          "store": "{parent}.fweb", "meta": "{dir}/demo.json", "preview": "{dir}/cover.webp",
+          "licence": "Apache-2.0; OFL-1.1 (fonts); NASA media guidelines; CC BY 4.0 (ESA/Hubble)",
           "credit": "NASA pictures and the Hubble Ultra Deep Field (NASA, ESA, S. Beckwith (STScI) and the HUDF Team), listed in CREDITS.md"
+        },
+        {
+          "glob": "frontend/public/demos/looking-back/site.fweb", "type": "file", "kind": "demo",
+          "store": "{parent}.fweb", "meta": "{dir}/demo.json", "preview": "{dir}/cover.webp",
+          "licence": "Apache-2.0; OFL-1.1 (fonts); NASA media guidelines",
+          "credit": "NASA pictures, listed in CREDITS.md"
         }
       ]
     }

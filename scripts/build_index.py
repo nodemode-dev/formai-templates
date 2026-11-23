@@ -5,8 +5,9 @@
 
 Each apps/[id]/app.json (written by scripts/collect.py) names the app, its
 licence and version, and each item's file, kind, name, description, licence,
-credit and preview. This script adds each file's size and SHA-256 and writes
-index.json at the root. Apps are sorted by id, items by kind, then name.
+credit, site type and preview. This script adds each file's size and SHA-256,
+and each preview's SHA-256, and writes index.json at the root. Apps are sorted
+by id, items by kind, then name.
 
 `generated` is the only field that can change between two runs on the same
 files. When nothing else changed, the existing index.json is left as it is;
@@ -62,10 +63,14 @@ def build(root: Path) -> dict:
                 "licence": record["licence"],
                 "credit": record.get("credit", ""),
             }
+            if record.get("type"):
+                item["type"] = record["type"]
             if record.get("preview"):
-                if not (app_dir / record["preview"]).is_file():
+                picture = app_dir / record["preview"]
+                if not picture.is_file():
                     raise SystemExit(f"build_index: {meta['id']}: {record['preview']} is missing")
                 item["preview"] = f"apps/{meta['id']}/{record['preview']}"
+                item["preview_sha256"] = sha256(picture)
             items.append(item)
         items.sort(key=lambda i: (i["kind"] != "template", i["name"].casefold(), i["id"]))
         apps.append({

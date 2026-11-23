@@ -49,6 +49,7 @@ STORED = {
     ".pdf", ".formpkg",
 }
 META_FILES = ("app.json", "LICENSE", "CREDITS.md")
+SITE_TYPES = ("business", "portfolio", "blog", "event", "shop")
 
 
 class CollectError(Exception):
@@ -79,10 +80,15 @@ def fill(template: str, item: Path, root: Path) -> str:
             .replace("{dir}", parent_rel).replace("{path}", rel))
 
 
-def read_meta(item: Path, meta: str | None) -> dict:
+def read_meta(item: Path, meta: str | None, root: Path) -> dict:
     if not meta:
         return {}
-    target = item if meta == "." else item / meta
+    if meta == ".":
+        target = item
+    elif "{" in meta:
+        target = root / fill(meta, item, root)
+    else:
+        target = item / meta
     if not target.is_file() or target.suffix != ".json":
         return {}
     try:
@@ -214,7 +220,7 @@ def collect_app(app: dict, checkout: Path, version: str, out: Path) -> None:
                 shutil.copyfile(item, target)
             if target.stat().st_size > MAX_BYTES:
                 fail(f"{app['id']}: {rel_store} is over 50 MB")
-            meta = read_meta(item, pattern.get("meta"))
+            meta = read_meta(item, pattern.get("meta"), checkout)
             if pattern.get("name_from") == "parent":
                 name = title_case(item.parent.name)
             else:
@@ -232,10 +238,12 @@ def collect_app(app: dict, checkout: Path, version: str, out: Path) -> None:
                 "kind": kind,
                 "name": name,
                 "description": description,
-                "licence": pattern.get("licence", app["licence"]),
-                "credit": pattern.get("credit", ""),
+                "licence": first_text(meta, ("licence",)) or pattern.get("licence", app["licence"]),
+                "credit": first_text(meta, ("credit",)) or pattern.get("credit", ""),
                 "source": item.relative_to(checkout).as_posix(),
             }
+            if meta.get("type") in SITE_TYPES:
+                record["type"] = meta["type"]
             if pattern.get("preview"):
                 picture = checkout / fill(pattern["preview"], item, checkout)
                 if picture.is_file():

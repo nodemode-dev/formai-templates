@@ -1,6 +1,13 @@
 # Changelog
 
-## 0.2.0 (2026-11-22)
+## 0.2.1 (2026-11-25)
+
+- `collect.py` finds an app's checkout whatever the letter case of its folder. `sources.json` names FormAT, FormPDF and
+  FormVFX as GitHub shows them (`formAT`, `formPDF`, `formVFX`); the family spec that formadaptor fetches the apps from
+  writes the three in lower case, so on a case-sensitive disk the collection stopped at "format: no checkout at
+  ../formai-templates-apps/formAT". The exact name is still tried first, and two folders that differ only in case are
+  not guessed between.
+- No collected file changes with this version; the tag `v0.2.0` stays what FormPublisher reads.
 
 - FormWeb 0.28.0: its eight whole-site demos, the three before and five new starters (Coldmere Plumbing, Northfold
   Studio, The Slow Allotment, Wenlow Type Day, Fernhollow Pottery), each with its cover picture. 167 templates and 59

@@ -1,6 +1,6 @@
 # FormWeb: credits for its templates and demos
 
-Copied unchanged from the formweb repository at its release 0.28.0. Each part below is one credits file of that repository, named by its path there.
+Copied unchanged from the formweb repository at its release 0.31.2. Each part below is one credits file of that repository, named by its path there.
 
 ## From `frontend/public/demos/CREDITS.md`
 

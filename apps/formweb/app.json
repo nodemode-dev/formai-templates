@@ -3,7 +3,7 @@
   "name": "FormWeb",
   "repo": "formweb",
   "licence": "Apache-2.0",
-  "version": "0.28.0",
+  "version": "0.31.2",
   "items": [
     {
       "file": "demos/coldmere-plumbing.fweb",

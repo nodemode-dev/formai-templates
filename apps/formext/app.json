@@ -3,7 +3,7 @@
   "name": "form.ext",
   "repo": "form.ext",
   "licence": "GPL-3.0",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "items": [
     {
       "file": "demos/citations-0.1.1.formpkg",

@@ -152,6 +152,14 @@ def match(root: Path, pattern: dict) -> list[Path]:
     return [found[k] for k in sorted(found)]
 
 
+def checkout_of(apps_root: Path, repo: str) -> Path:
+    exact = apps_root / repo
+    if exact.is_dir() or not apps_root.is_dir():
+        return exact
+    same = [p for p in sorted(apps_root.iterdir()) if p.is_dir() and p.name.lower() == repo.lower()]
+    return same[0] if len(same) == 1 else exact
+
+
 def release_version(app: dict, checkout: Path, apps_root: Path, family: dict | None) -> str:
     if family is not None:
         entry = family.get(app["id"])
@@ -324,7 +332,7 @@ def main() -> int:
                     if old.is_dir() and old.name not in wanted_ids:
                         shutil.rmtree(old)
             for app in apps:
-                checkout = args.apps_root / app["repo"]
+                checkout = checkout_of(args.apps_root, app["repo"])
                 version = release_version(app, checkout, args.apps_root, family)
                 collect_app(app, checkout, version, stage_apps)
                 print(f"collect: {app['id']} {version}")
